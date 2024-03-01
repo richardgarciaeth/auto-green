@@ -3,9 +3,9 @@ name: ci
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
-    - cron: "22 21 * * *"
+    - cron: "29 21 * * *"
 
 jobs:
   autogreen:
